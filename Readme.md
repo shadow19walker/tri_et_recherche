@@ -33,6 +33,4 @@ Ensuite pour faire la recherche dichotomique on appelle la fonction en passant e
 <h1>author</h1>
 
 
-<h3>Name: KAMGA CHEUKO FRANKLIN DAVY</h3>
-<h3>Matricule: 21p308</h3>
-<h3>Niveau: 3GI</h3>
+<h3>Shadow Walker</h3>
