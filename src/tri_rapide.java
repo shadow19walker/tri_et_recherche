@@ -21,15 +21,14 @@ public class tri_rapide {
         permuter(tab,i+1,r);
         return i+1;
     }
-    public static int[] tri_rapide(int [] tab, int p, int r)
+    public static void triRapide(int [] tab, int p, int r)
     {
         int q;
         if(p < r){
             q = partition(tab, p, r);
-            tri_rapide(tab, p, q-1);
-            tri_rapide(tab, q+1, r);
+            triRapide(tab, p, q-1);
+            triRapide(tab, q+1, r);
         }
-        return tab;
     }
 
 }
